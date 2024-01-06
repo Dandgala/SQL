@@ -40,7 +40,4 @@ SELECT AVG(price),
 FROM superstore
 WHERE category = "Kitchen Supplies"
 
-#What is the most expensive Appliances?
-SELECT MAX(price), category, item_name
-FROM superstore
-WHERE category = 'Kitchen Supplies'
+
